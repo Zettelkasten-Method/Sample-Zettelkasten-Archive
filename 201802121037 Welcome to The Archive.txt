@@ -1,0 +1,136 @@
+# 201802121037 Welcome to The Archive
+#TheArchive
+
+Welcome to The Archive, the best app of all time and possible worlds. Just kidding. We're happy you're here!
+
+This is a short introduction to the functionality of *The Archive*.
+
+Make sure to check out our forums to discuss knowledge work and this app with others:
+<http://forum.zettelkasten.de>
+
+## The Interface
+
+The user interface has four important parts:
+
+1. The Editor. This is this big area to the right. Here you can read and write your content. Like this text.
+2. The Omnibar. The Omnibar commands the list of results. It filters all the files in your archive via full text search.
+3. The List. It displays your notes to the left of the editor. Depending on what the Omnibar contains, it either shows all your notes or a set of notes that match your current search, depending on the content of the Omnibar. 
+4. Saved Searches. All the way to the left, there are the saved searches. You can define a search term and then just click on the button. Very useful if you go to a set of notes frequently.
+
+In the "Help" menu, you will find "Show App Guide" which explains the interface to you anytime.
+
+Try it now!
+
+Then let us dive a little bit deeper.
+
+### The Editor
+
+We assume that you know how to type. *The Archive* highlights what you type according to your theme and to the Markdown syntax. The Markdown syntax gives you two features.
+
+1. It lets you make a plain text file more readable even when you wouldn't have syntax highlighting. *The Archive*'s highlighting enhances this effect. Markdown quickly becomes second nature.
+2. It gives you the opportunity to make use of many export functions (convert Markdown to LaTeX to PDF for example). This makes *The Archive* work better with distraction free editors (highly recommended over bloated software).
+
+For a full documentation have a look at this website from the creator of Markdown: https://daringfireball.net/projects/markdown/basics
+
+#### Basic Textual Markup
+
+Let's demonstrate the markup in text.
+
+The line above with the 4 `#` signs demonstrates a level 4 heading. The more hashes you add, the deeper the level of the heading is. This is useful to structure longer texts but is not used that often in notes.
+
+- Lists are useful.
+- They are especially useful when list items get longer, as *The Archive* wraps the lines around and adds indentation to guide your eye along the list when you read.
+    1. Nested lists work, too.
+    2. And, as you see, you can number items to make the list an ordered list instead of an unordered list.
+- And so you may start an overview.
+
+You separate paragraphs of text with empty lines, not just with single line breaks. Inside paragraphs, you can **embolden parts of text** like this to really stress something, or *italicize text* for a much milder emphasis. Or you ***Italicize emboldened text*** for maximum emphasis. Shouting in all caps is optional and not recommended during office hours. Be smart and *emphasize* with style.
+
+If you want to add code or put something that would be recognized as Markdown in verbatim, `you can use backticks, disabling *emphasis*, too`.
+
+Quoted from [the Markdown guide][guide]:
+
+> Blockquotes are indicated using email-style '>' angle brackets.
+
+[guide]: https://daringfireball.net/projects/markdown/basics
+
+#### Code blocks
+
+Then there's verbatim or "code" blocks,
+
+    created by either block-indenting text 
+    with 4 spaces or a tabulator;
+
+or you can use
+
+```
+GitHub-style code fences which ease copy & pasting.
+```
+
+Themes for *The Archive* are recommended to use monospace fonts. Monospace fonts have predictable character widths which is useful for lists, tables and more. You could customize a theme to only use monospace fonts for code blocks, though.
+
+### The Omnibar
+
+The Omnibar is the place to interact with your archive. It's the search-and-create box at the top of the app, just like in a web browser.
+
+Imagine *The Archive* as a remote control for your directory of plain text files. Familiarize yourself with the shortcut to access the Omnibar quickly from anywhere: ⌘L. You'll need this a lot to navigate in your archive.
+
+When the Omnibar is focused, you can use the arrow keys to navigate around in the list of found notes. You can even press the shift key to select multiple notes from there. No need to click inside the search result list with the mouse.
+
+From the Omnibar, hit the tabulator key to jump to the note editor quickly.
+
+Typing into the Omnibar filters your notes to match your search in real time. Which brings us to the next point...
+
+
+#### Search Expressions
+
+The Omnibar performs simple text search, but also offers boolean search expressions and other search niceties.
+
+For example, when you surround a phrase in quotation marks, "like this", it will search for the phrase, and not the single words it's made of.
+
+Then there are logical operators:
+
+- Operators are all caps: `AND`, `OR`, and `NOT`.
+- `foo bar baz` is equivalent to `foo AND bar AND baz`.
+- Instead of writing `NOT`, you can prefix a word or phrase or parens with `!`: `NOT b` is `!b` and will show notes that have no "b".
+- Phrases win over the exclamation mark: `"!b"` is a phrase search for "!b", matching the literal exclamation mark.
+- Instead of surrounding something with quotation marks, escaping with a backslash works, too: `\!b` will treat the exclamation mark as part of the search string.
+- Escaping quotation marks inside phrase searches will also work: `hello "you \"lovely\" specimen"`
+- You can parenthesize expressions to group them. For example, `!(foo OR (baz AND !bar)` is equivalent to writing `!foo OR !baz AND !foo OR !bar`.
+
+A real-world example: `"the archive" OR #zettelkasten` will not match `the` and `archive` alone, as you'd expect from phrase searches. You will get all notes that are tagged with #zettelkasten, contain the phrase "the archive", or both.
+
+If you're into algorithms, please note that OR and AND do not have correct operator precedence; I found that doesn't matter for searching notes. So if in doubt, better use parens to group parts of the search!
+
+
+### The List of Notes
+
+The list of notes is either the complete list of all of your notes or a set of notes that match your current search depending on the content of the Omnibar. 
+
+## Special Features - Just for You 
+
+So far, so good. Now let's take a look at a couple of special features. 
+
+### Clickable Tags
+
+You can elevate a word to a tag by putting a hash in front of it: #BestTagEver. You see that *The Archive* highlights it. You can click on it and *The Archive* will search all of your notes for this tag. 
+
+If you think of tags as markers for sets of notes you will get it right. 
+
+### Links to Other Notes
+
+If you surround a word or a string with double brackets, *The Archive* makes it clickable like it does for tags, see: [[201802121037 Welcome to The Archive]] It is a search command you can click on. If you are specific enough with your search term you can link to a specific file. *The Archive* will automatically display a good match from the search results in the note editor to pull this effect off.
+
+To make links really specific, we recommend putting a unique identifier in the file name. Then the search command (serving as a link) can be very short: [[201802121037]] will point to the same note but with less noise.
+
+You may ask why we didn't just include a direct linking feature. We designed it like that because we want your note archive to also work with other apps. That means *The Archive* won't use anything that is not replicable with most other text editors. A proprietary link format isn't replicable, but a textual reminder to search for whatever is written between the double square brackets is. We call this approach to making our app not box you in "Software Agnostic Programming". 
+
+Of course, we think this app is the best. *The Archive* streamlines many processes you may need for effective note taking and creative knowledge work. But we don't want to box you in with proprietary file formats or anything like that. We think that you should decide what is best for your and don't want to interfere with that decision. (*The Archive* is still the best thing since sliced bread... just saying.)
+
+### Saved Searches
+
+Some searches have to be done repeatedly. Quite often you will need to return to the same set of notes. For that reason, we included the saved search feature.
+
+You can assign hotkeys for specific searches. Then you can access a specific set of notes in an instant.
+
+The search expression syntax of the Omnibar work for Saved Searches, too. You can save the search for `#outline OR #draft` and get back to all your current projects quickly.

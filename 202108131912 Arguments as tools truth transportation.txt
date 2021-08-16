@@ -1,0 +1,15 @@
+# 202108131912 Arguments as tools truth transportation
+#Arguments #Truth
+
+Arguments are basically tools for truth transportation. The argument form is used to transport truth from the premises to the conclusion.
+
+## Example
+
+Classical Modus Ponens:
+
+(1) All humans are mortal.
+(2) I am a human.
+...
+Therefore: I am mortal.
+
+(1) and (2) are definitely true.

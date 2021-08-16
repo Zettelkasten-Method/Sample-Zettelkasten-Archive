@@ -1,0 +1,131 @@
+# Acknowledgements
+#TheArchive
+
+This app, like every app, stands on the shoulder of giants. Hundreds of years of human scholarliness culminate in this piece of software. Also, the Internet, electricity, movable type -- thanks for all this, humanity!
+
+There are a couple of people we want to highlight because of their impact on the way we work:
+
+- Niklas Luhmann, for reviving the Zettelkasten method in recent history.
+- Zachary Schneirov, creator of Notational Velocity <http://notational.net>, for the "nv core" user experience.
+- Brett Terpstra & David Halter, maintainers of nvALT <https://github.com/ttscoff/nv>, for the app that we all used since 2010.
+- All the contributors of Open Source Software who helped realize this app without even knowing. Seriously, it's a miracle. Have a look at the "About" window for a list of these.
+
+Enjoy the app, dear user, and say hi on <http://zettelkasten.de/forum> some day and tell us about your journey.
+
+
+## Our Very Fine Beta Testers
+
+Finally, this project wouldn't have been possible without a ton of support by amazing people we do not even know in person, which makes it all even more unbelievable:
+
+
+Alexander Chamessian
+
+Alvin C
+
+Bjoern Rump
+
+Bruno Conte
+
+Carlos F Muñoz Núñez
+
+Chris Johnson
+Sound Project USELESS FLAGS
+
+Christoph Metze
+
+Claus Suverkropp
+
+Dan V. Hirslund
+Critical Anthropologists
+
+Dan Young
+
+David Loeffler
+
+Devin Beecher
+
+Dick Barends
+Dynamic Simulations
+
+Dylan "Mad dog" Elliott
+Not really known as "Mad dog"
+
+Galen Menzel
+
+Harvey Levine
+
+Jack Baty
+
+Jacob Ross
+
+Jamison Judd
+Judd Laboratories
+
+Jason Gilman
+
+Jeshurun Lin
+Be a curious learner!
+
+Joel Carranza
+"1032 notes made since 2011"
+
+Juhyun Woo
+
+Kristoph Sachsenweger
+
+Lars Nilausen Cleemann
+
+Leonardo Wolff
+A renaissance man in a postmodern world
+
+Lutz Essers
+
+Manuel Angel
+
+Martin Boycott-Brown
+Psychologist and Historian
+
+Matthew Johnson
+
+Matthew Wilson
+
+Michael Grant
+"I never metadata I didn't like."
+
+Michel Antoine Castonguay
+Ateliers Manigances
+
+Nicholas Cifuentes-Goodbody
+
+Oros Imre
+
+Peter Witham
+Never Give Up, Always Believe
+
+Richard Guay
+Missionary in Thailand and Freelance Developer
+
+Rocco Nicosia
+
+Sabino Maggi
+
+Sam
+
+Shande Niemann
+
+Simon Smailus
+
+Toffer Surovec
+Texas-based creator who is writing a tiny book of tiny advice about self-care called, Tiny Advice Book
+
+Tony Williams
+
+Wolf
+
+Will McKim
+
+Yaniv Baruh
+
+Zachary Hope
+
+... and 1 anonymous beta tester.

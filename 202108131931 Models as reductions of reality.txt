@@ -1,0 +1,21 @@
+# 202108131931 Models as reductions of reality
+#model #reality
+
+Models are reductions of reality. 
+
+1. They need to correspond with reality at least in one common attribute. 
+2. They need to exclude attributes that decreases the intended use. 
+
+## Example
+
+A flight simulator is then a good model for flight if it resembles the physics of actual flying.
+
+Included aspects of reality: 
+
+- Physics
+- Cause and effect
+
+Excluded of reality:
+
+- The actual plane
+- Perhaps, even the cockpit (in case of a use as computer game)
