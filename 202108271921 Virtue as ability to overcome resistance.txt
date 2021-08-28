@@ -1,0 +1,10 @@
+# 202108271921 Virtue as ability to overcome resistance
+#virtue #resistance
+
+Modeled by the obstacle model [[202108271924]] virtue is a trait that makes it more probable to overcome an obstacle.
+
+So, each virtue needs to define the three related concepts:
+
+1. The problem you want to solve.
+2. The obstacle you need to overcome to solve the problem.
+3. The solution you want.
