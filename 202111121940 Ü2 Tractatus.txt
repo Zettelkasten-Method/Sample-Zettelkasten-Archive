@@ -1,0 +1,25 @@
+# 202111121940 Ü2 Tractatus
+##Ü2 ##Tractatus ##Wittgenstein
+
+<!-- This note is a try to reconstruct the content of the Tractatus. -->
+
+## World
+
+**Hypothesis:** World is an epistemic entity. A fact is not a thing but a statement about things.
+
+**Evidence:**
+
+> [1.1] The world is the totality of facts, not of things. 
+
+> [1.13] The facts in logical space are the world. 
+
+If the world is not placed in what is real but in the logical space the world is an epistemic entity. 
+
+**Hypothesis:** The world is the whole and a fact is part of the world.
+
+**Evidence:**
+
+> [1.1] The world is the totality of facts [...]
+> [1.2] The world divides into facts. 
+
+The world is the totality of facts and it divides into facts. Facts are the parts of which the world is constituted.

@@ -1,0 +1,39 @@
+# 202110081939 Ü2 Overtraining
+##Ü2 ##Overtraining
+
+## Concept
+
+Cadegiani/Kater proposed instead *Paradoxical Deconditioning Syndrome*.[][#cadegiani2019]
+
+Overtraining is not just about training. It seems to be more likely a dysbalance between anabolic and catabolic factors. 
+
+> (...) OTS rises from unique combinations of risk factors and stressors, rather than excessive training alone.[][#cadegiani2019]
+
+1. **Catabolic Factors:** Physical Stress[][#cadegiani2019] and cognitive stress[][#cadegiani2019] (Working, Studying, Social Stress). 
+2. **Anabolic Factors:** Nutrition,[][#cadegiani2019] Sleep,[][#cadegiani2019] 
+
+## Model
+
+Risk Faktors -> Maladaptions -> Overtraining Syndrome
+
+## Symptoms
+
+- Blunted cortisol spike (30min after awaking)[][#cadegiani2018]
+
+## Risk Faktors of Overtraining Syndrome
+
+- mean number of daily hours of work/study >8 hours/day[][#cadegiani2019]
+- carbohydrate intake <5.0 g/kg/day[][#cadegiani2019]
+- protein intake <1.6 g/kg/day[][#cadegiani2019]
+- total daily calorie intake <35 kcal/kg/day[][#cadegiani2019]
+
+## Non-Related Factors to Overtraining Syndrome
+
+- Fat intake (g/kg/day)
+
+![](../Abbildungen/2021-10-08-overtraining-syndrome.jpg)
+
+
+[#cadegiani2019]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5722782/
+
+[#cadegiani2019]: Flavio A Cadegiani and Claudio Elias Kater (2019):  Novel insights of overtraining syndrome discovered from the EROS study, BMJ Open Sport Exerc Med 1, 2019, Vol. 5, S. e000542. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6590962/

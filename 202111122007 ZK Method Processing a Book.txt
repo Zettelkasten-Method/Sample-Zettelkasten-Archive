@@ -1,0 +1,10 @@
+# 202111122007 ZK Method Processing a Book
+#Book
+
+1. Prepare your Zettelkasten
+	1. a) Group all relevant notes into a saved search
+	1. b) Prepare central notes for the systematic approach as well as a central note for the book *if* the book is so important that you are likely to re-read it.
+2. Read the book.
+3. While reading the book, mark everything that you want to re-read. You want to re-read everything that you don't understand or that you deem worthy of keeping.
+4. Only re-read marked parts of the book.
+4. During the re-reading process process each marking and connect it to the existing note network.
